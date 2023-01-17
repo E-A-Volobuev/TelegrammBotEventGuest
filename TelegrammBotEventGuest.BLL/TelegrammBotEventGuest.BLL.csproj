@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LightInject" Version="6.6.2" />
+    <PackageReference Include="Telegram.Bot" Version="18.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TelegrammBotEventGuest.Core\TelegrammBotEventGuest.Core.csproj" />
+  </ItemGroup>
+
+</Project>
